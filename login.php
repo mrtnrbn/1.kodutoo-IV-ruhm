@@ -1,6 +1,6 @@
 <?php 
 	
-	require("../../../config.php");
+	require("/home/martreba/config.php");
 	require("functions.php");
 	
 	//var_dump($_GET);
@@ -90,11 +90,11 @@
 	}
 	
 	// kas kasutaja tahab sisse logida
-	if ( isset($_POST["loginEmail"])
-		 isset($_POST["loginPassword"])
-		 !empty($_POST["loginEmail"]
+	if ( isset($_POST["loginEmail"])&&
+		 isset($_POST["loginPassword"])&&
+		 !empty($_POST["loginEmail"])&&
 		 !empty($_POST["loginPassword"])
-	
+		)
 	
 
 ?>
